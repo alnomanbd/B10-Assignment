@@ -30,7 +30,11 @@
               colors: {
                 "primary-btn": 'rgb(171, 239, 95)',
                 "secondary-btn": 'rgba(171, 239, 95, 0.5)',
-                "primary-txt": 'rgb(28, 28, 28)'
+                "primary-txt": 'rgb(28, 28, 28)',
+                "bg-pink" : 'rgb(231, 193, 211)',
+                "bg-yellow": 'rgb(239, 218, 110)',
+                'bg-green': 'rgb(164, 218, 195)',
+                'bg-blue': 'rgb(119, 170, 234)'
               }
             }
           }
@@ -115,33 +119,61 @@
     <!-- Main Section -->
     <main class="bg-gray-100">
         <!-- About Us Section -->
-        <section class="container mx-auto py-24">
+        <section class="container mx-auto">
             <div></div>
         </section>
 
         <!-- How we work Section -->
-        <section>
-
+        <section class="container mx-auto">
+            <div class="pt-24 w-11/12 mx-auto space-y-8">
+                <div class="text-center space-y-6">
+                    <button class="bg-secondary-btn px-4 py-2 rounded-full font-bold"><i class="fa-solid fa-arrow-right text-black"></i> How we works</button>
+                    <h3 class="text-3xl font-bold mb-3">Our Works Process</h3>
+                    <p class="opacity-80">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                    <div class="bg-bg-pink p-6 rounded-lg">
+                        <img src="./assets/concept.png" alt="">
+                        <h6 class="font-bold text-lg">Concept</h6>
+                        <p class="text-primary-txt">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                    <div class="bg-bg-yellow p-6 rounded-lg">
+                        <img src="./assets/flow-chart.png" alt="">
+                        <h6 class="font-bold text-lg">Design Process</h6>
+                        <p class="text-primary-txt">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                    <div class="bg-bg-green p-6 rounded-lg">
+                        <img src="./assets/vision.png" alt="">
+                        <h6 class="font-bold text-lg">Supervision</h6>
+                        <p class="text-primary-txt">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                    <div class="bg-bg-blue p-6 rounded-lg">
+                        <img src="./assets/budget-planning.png" alt="">
+                        <h6 class="font-bold text-lg">Budget Planning</h6>
+                        <p class="text-primary-txt">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Latest Work Section -->
         <section>
 
         </section>
-        
+
         <!-- Article and News Section -->
         <section>
         </section>
 
         <!-- Connect Section -->
-        <section class="bg-[url('./assets/bg.jpg')] bg-cover bg-no-repeat bg-center">
-            <div class="py-24 space-y-10">
-                <div class="text-center">
+        <section class="bg-[url('./assets/bg.jpg')] bg-cover bg-no-repeat bg-center mt-24">
+            <div class="container mx-auto py-24">
+                <div class="text-center space-y-6">
                     <button class="bg-secondary-btn px-4 py-2 rounded-full font-bold"><i class="fa-solid fa-arrow-right text-black"></i> Let's Connect</button>
                     <h3 class="text-3xl font-bold mb-3">Let’s Discuss Next Project</h3>
                     <p class="opacity-80">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
-                <div class="border-2 w-11/12 md:w-8/12 mx-auto">
+                <div class="w-11/12 md:w-8/12 mx-auto mt-6">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         <div>
                           <input class="mt-3 p-4 border-none outline-none bg-white rounded-lg w-full" type="text" placeholder="First Name*">
